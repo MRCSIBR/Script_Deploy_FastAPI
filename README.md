@@ -2,14 +2,15 @@
 
 1. **Crear entorno virtual**
 
-`$python3 -m venv (nombre_entorno)`
+ `$python3 -m venv (nombre_entorno)`
 
-Activar el entorno virtual
+   Activar el entorno virtual
 
    `$source (nombre_entorno)/bin/activate`
 
-Entrar al directorio creado   
-   `$touch .gitignore`
+   Entrar al directorio creado   
+    
+    `$touch .gitignore`
 
 1. **Create a FastAPI App:**
    - First, make sure you have your FastAPI application code ready. If not, create your FastAPI app, including all the necessary routes, models, and dependencies.
