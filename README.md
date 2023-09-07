@@ -23,6 +23,7 @@
    ```
 
 3. **Create a `main.py` File:**
+
    - Create a Python file (e.g., `main.py`) that will serve as the entry point to your FastAPI application. In this file, you'll import your FastAPI app instance and define your routes. Here's a sample `main.py`:
 
    ```python
@@ -35,8 +36,9 @@
        return {"message": "Hello, FastAPI!"}
    ```
 
-4. **Generate a `requirements.txt` File:**
-   - To generate a `requirements.txt` file that lists your project's dependencies, you can use the `pip freeze` command. Run this command in your project directory:
+5. **Generate a `requirements.txt` File:**
+
+    - To generate a `requirements.txt` file that lists your project's dependencies, you can use the `pip freeze` command. Run this command in your project directory:
 
    ```bash
    pip freeze > requirements.txt
@@ -44,10 +46,12 @@
 
    This will create a `requirements.txt` file with a list of your project's Python dependencies.
 
-5. **Install Docker:**
+7. **Install Docker:**
+
    - Install Docker on your system if you haven't already. You can download Docker Desktop for Windows or macOS, or install Docker Engine on Linux.
 
-6. **Create a `Dockerfile`:**
+9. **Create a `Dockerfile`:**
+
    - Create a `Dockerfile` in the same directory as your FastAPI app code. The `Dockerfile` defines how your application will be containerized. Here's a basic example:
 
    ```Dockerfile
@@ -75,7 +79,7 @@
 
    Ensure you have a `requirements.txt` file listing your Python dependencies alongside the `Dockerfile`.
 
-7. **Build the Docker Image:**
+11. **Build the Docker Image:**
    - In the same directory as your `Dockerfile`, run the following command to build the Docker image:
 
    ```bash
@@ -84,7 +88,7 @@
 
    Replace `my-fastapi-app` with your desired image name.
 
-8. **Run the Docker Container:**
+11. **Run the Docker Container:**
    - Once the image is built, you can run it as a Docker container:
 
    ```bash
