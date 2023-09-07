@@ -2,7 +2,7 @@
 
 1. **Crear entorno virtual**
 
-   `$python3 -m venv (nombre_entorno)`
+`$python3 -m venv (nombre_entorno)`
 
 Activar el entorno virtual
 
