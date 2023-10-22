@@ -105,7 +105,7 @@ These steps include generating a `requirements.txt` file using `pip freeze` and 
 
 ## Automatizar con Bash Script
 
-Podemos crear un script bash para automatizar el proceso de construir y correr tu aplicación FastaPI usando Docker. Aqui hay un script basico que encapsula los pasos anteriores:
+Podemos crear un script bash para automatizar el proceso de construir y correr tu aplicación FastAPI usando Docker. Aqui hay un script basico que encapsula los pasos anteriores:
 
 ```bash
 #!/bin/bash
